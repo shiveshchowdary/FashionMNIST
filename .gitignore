@@ -1,12 +1,14 @@
 # Byte-compiled / optimized / DLL files
 .DS_Store
-/Data
+*.csv
+
 __pycache__/
 *.py[cod]
 *$py.class
 
 # C extensions
 *.so
+*.ipynb_checkpoints/
 
 # Distribution / packaging
 .Python
