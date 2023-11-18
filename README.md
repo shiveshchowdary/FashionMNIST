@@ -1,4 +1,4 @@
-3# Fashion MNIST Classification
+# Fashion MNIST Classification
 
 ## Dependencies
 
