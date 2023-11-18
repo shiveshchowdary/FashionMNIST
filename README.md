@@ -1,4 +1,4 @@
-# Fashion MNIST Classification
+3# Fashion MNIST Classification
 
 ## Dependencies
 
@@ -59,3 +59,18 @@ Inspired by the ResNet architecture, the following three configurations of the m
 | 3    | 5                | 64      | 92.11%               |
 
 These configurations represent the top-performing models based on their validation accuracy.
+
+These results represent the performance of the ResNet-inspired model with varying numbers of residual blocks and filters. The top-performing configuration with 3 residual blocks and 64 filters achieved an impressive validation accuracy of 92.81%. Consider utilizing these configurations as a solid foundation for your tasks or further customizing them based on specific requirements.
+
+## Model Interpretability
+
+### Grad-CAM Visualizations for Convolutional Layers
+
+#### First Convolutional Layer (1st Layer.png)
+![Grad-CAM for First Convolutional Layer](images/1st layer.png)
+
+#### Second Convolutional Layer (2nd Layer.png)
+![Grad-CAM for Second Convolutional Layer](images/2nd layer.png)
+
+The above images showcase the Grad-CAM visualizations for the first and second convolutional layers of the model. These visualizations offer insights into the areas of focus for each layer, providing a deeper understanding of the model's decision-making process.
+
