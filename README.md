@@ -81,7 +81,7 @@ After thorough model tuning, the best-performing configuration was identified as
 
 | Residual Blocks | Filters | Validation Accuracy |
 |------------------|---------|----------------------|
-| 3                | 64      | 92.95%               |
+| 3                | 64      | 92.81%               |
 
 ## Model Evaluation Metrics
 
