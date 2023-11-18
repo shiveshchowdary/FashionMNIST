@@ -74,3 +74,33 @@ These results represent the performance of the ResNet-inspired model with varyin
 
 The above images showcase the Grad-CAM visualizations for the first and second convolutional layers of the model. These visualizations offer insights into the areas of focus for each layer, providing a deeper understanding of the model's decision-making process.
 
+
+# Best Model - Residual Blocks 3, Filters 64
+
+After thorough model tuning, the best-performing configuration was identified as follows:
+
+| Residual Blocks | Filters | Validation Accuracy |
+|------------------|---------|----------------------|
+| 3                | 64      | 92.95%               |
+
+## Model Evaluation Metrics
+
+### Test Set
+
+| Loss   | Accuracy | Precision | Recall | F1 Score |
+|--------|----------|-----------|--------|----------|
+| 0.1954 | 92.95%   | 93.08%    | 92.95% | 92.98%   |
+
+### Validation Set
+
+| Loss   | Accuracy | Precision | Recall | F1 Score |
+|--------|----------|-----------|--------|----------|
+| 0.2226 | 92.28%   | 92.44%    | 92.28% | 92.33%   |
+
+### Training Set
+
+| Loss   | Accuracy | Precision | Recall | F1 Score |
+|--------|----------|-----------|--------|----------|
+| 0.1541 | 94.40%   | 94.83%    | 94.77% | 94.78%   |
+
+These results indicate the performance of the best model on different datasets, showcasing promising accuracy and associated metrics.
