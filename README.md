@@ -75,7 +75,7 @@ These results represent the performance of the ResNet-inspired model with varyin
 The above images showcase the Grad-CAM visualizations for the first and second convolutional layers of the model. These visualizations offer insights into the areas of focus for each layer, providing a deeper understanding of the model's decision-making process.
 
 
-# Best Model - Residual Blocks 3, Filters 64
+# Best Model 
 
 After thorough model tuning, the best-performing configuration was identified as follows:
 
