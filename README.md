@@ -67,10 +67,10 @@ These results represent the performance of the ResNet-inspired model with varyin
 ### Grad-CAM Visualizations for Convolutional Layers
 
 #### First Convolutional Layer (1st Layer.png)
-![Grad-CAM for First Convolutional Layer](images/1st layer.png)
+![Grad-CAM for First Convolutional Layer](images/1stlayer.png)
 
 #### Second Convolutional Layer (2nd Layer.png)
-![Grad-CAM for Second Convolutional Layer](images/2nd layer.png)
+![Grad-CAM for Second Convolutional Layer](images/2ndlayer.png)
 
 The above images showcase the Grad-CAM visualizations for the first and second convolutional layers of the model. These visualizations offer insights into the areas of focus for each layer, providing a deeper understanding of the model's decision-making process.
 
