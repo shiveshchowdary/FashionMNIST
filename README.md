@@ -35,3 +35,16 @@ Before running the project, ensure that you have the required dependencies insta
 Before running the code, make sure to organize your data in the following structure and place it in the `Data` folder:
 
 data - https://drive.google.com/drive/folders/1loTGJ2XxOBBh4R8nGSha1FeQMs2QTzkJ?usp=sharing
+
+# CNN Model Tuning Results
+
+After thorough experimentation and tuning, the following three sets of model parameters demonstrated the highest validation accuracy. These configurations are recommended for their outstanding performance:
+
+| Rank | Convolution 1 Filters | Convolution 2 Filters | Filter Size | Dense Layer | Validation Accuracy |
+|------|------------------------|------------------------|-------------|-------------|----------------------|
+| 1    | 32                     | 64                     | 3           | 64          | 92.01%               |
+| 2    | 64                     | 128                    | 3           | 32          | 91.84%               |
+| 3    | 64                     | 128                    | 3           | 64          | 91.89%               |
+
+These configurations represent the top-performing models based on their validation accuracy. Feel free to use these settings as a starting point for your specific task or further customize them based on your requirements.
+
