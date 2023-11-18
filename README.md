@@ -103,4 +103,4 @@ After thorough model tuning, the best-performing configuration was identified as
 |--------|----------|-----------|--------|----------|
 | 0.1541 | 94.40%   | 94.83%    | 94.77% | 94.78%   |
 
-These results indicate the performance of the best model on different datasets, showcasing promising accuracy and associated metrics.
+These results indicate the performance of the best model on train, test, validation splits, showcasing promising accuracy and associated metrics.
