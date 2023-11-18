@@ -46,5 +46,16 @@ After thorough experimentation and tuning, the following three sets of model par
 | 2    | 64                     | 128                    | 3           | 32          | 91.84%               |
 | 3    | 64                     | 128                    | 3           | 64          | 91.89%               |
 
-These configurations represent the top-performing models based on their validation accuracy. Feel free to use these settings as a starting point for your specific task or further customize them based on your requirements.
+These configurations represent the top-performing models based on their validation accuracy.
 
+# ResNet-Inspired Model Tuning Results
+
+Inspired by the ResNet architecture, the following three configurations of the model were experimented with, showcasing their validation accuracies:
+
+| Rank | Residual Blocks | Filters | Validation Accuracy |
+|------|------------------|---------|----------------------|
+| 1    | 3                | 64      | 92.81%               |
+| 2    | 4                | 64      | 92.51%               |
+| 3    | 5                | 64      | 92.11%               |
+
+These configurations represent the top-performing models based on their validation accuracy.
