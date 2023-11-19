@@ -43,8 +43,8 @@ After thorough experimentation and tuning, the following three sets of model par
 | Rank | Convolution 1 Filters | Convolution 2 Filters | Filter Size | Dense Layer | Validation Accuracy |
 |------|------------------------|------------------------|-------------|-------------|----------------------|
 | 1    | 32                     | 64                     | 3           | 64          | 92.01%               |
-| 2    | 64                     | 128                    | 3           | 32          | 91.84%               |
-| 3    | 64                     | 128                    | 3           | 64          | 91.89%               |
+| 2    | 64                     | 128                    | 3           | 64          | 91.89%               |
+| 3    | 64                     | 128                    | 3           | 32          | 91.84%               |
 
 These configurations represent the top-performing models based on their validation accuracy.
 
